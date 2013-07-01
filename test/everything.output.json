@@ -1,0 +1,13 @@
+{
+  "value": {
+    "a": [{"d": "e"}, {"g": "h"}, {"d": "e"}, {"g": "h"}],
+    "b": [{"d": "e"}, {"g": "h"}],
+    "c": [{"d": "e"}, {"g": "h"}],
+    "f": {"g": "h"}
+  },
+  "options": {
+    "alias": true,
+    "map": true,
+    "flatten": true
+  }
+}
