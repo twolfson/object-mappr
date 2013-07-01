@@ -31,7 +31,8 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.3.17",
-    "mocha": "~1.11.0"
+    "mocha": "~1.11.0",
+    "glob": "~3.2.1"
   },
   "keywords": [
     "object",
