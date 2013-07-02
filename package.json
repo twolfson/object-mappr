@@ -1,6 +1,6 @@
 {
   "name": "object-mapper",
-  "description": "Map, alias, and expand object values to other object values.",
+  "description": "Map, alias, and flatten object values to other object values.",
   "version": "0.1.0",
   "homepage": "https://github.com/twolfson/object-mapper",
   "author": {
