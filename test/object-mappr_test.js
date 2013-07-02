@@ -1,5 +1,5 @@
 // Load in our library and dependencies
-var objectMapper = require('../lib/object-mapper.js'),
+var objectMapper = require('../lib/object-mappr.js'),
     assert = require('assert'),
     glob = require('glob');
 
@@ -7,7 +7,7 @@ var objectMapper = require('../lib/object-mapper.js'),
 var inputFiles = glob.sync('*.input.*', {cwd: __dirname});
 
 // Iterate over them
-describe('object-mapper', function () {
+describe('object-mappr', function () {
   // Create an `it` method for each input
   inputFiles.forEach(function beginTest (inputFile) {
     // Begin the test

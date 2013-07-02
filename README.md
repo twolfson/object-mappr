@@ -1,4 +1,4 @@
-# object-mapper [![Donate on Gittip](http://badgr.co/gittip/twolfson.png)](https://www.gittip.com/twolfson/)
+# object-mappr [![Donate on Gittip](http://badgr.co/gittip/twolfson.png)](https://www.gittip.com/twolfson/)
 
 Map, alias, and flatten object values to other object values.
 
@@ -7,13 +7,13 @@ This project was created as part of [doubleshot][doubleshot], perfoming the valu
 [doubleshot]: https://github.com/twolfson/doubleshot
 
 ## Getting Started
-Install the module with: `npm install object-mapper`
+Install the module with: `npm install object-mappr`
 
 Below is an example of what goes on under the hood of [doubleshot][doubleshot].
 
 ```javascript
 // Map over test content
-var objectMapper = require('object-mapper'),
+var objectMapper = require('object-mappr'),
     mappedObj = objectMapper({
       '1 + 2': ['One', 'plus two'],
       'One': function () {
@@ -61,7 +61,7 @@ mappedObj;
 ```
 
 ## Documentation
-`object-mapper` provides a function to process aliasing, mapping, and flattening on.
+`object-mappr` provides a function to process aliasing, mapping, and flattening on.
 
 ```js
 /**
