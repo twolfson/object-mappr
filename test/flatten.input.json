@@ -4,6 +4,6 @@
     "d": {"e": "f"}
   },
   "options": {
-    "map": true
+    "flatten": true
   }
 }
